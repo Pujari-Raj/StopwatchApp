@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #448aff;
+    font-family: Montserrat, sans-serif;
+}
+
+.stopwatch-container {
+    background-color: #fff;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.time-display {
+    background-color: #fff;
+    display: flex;
+    width: 92%;
+    justify-content: center;
+    align-items: center;
+    margin:  0 auto;
+    padding: 20px 0;
+    font-size: 42px;
+    color: #0D0D0D;
+    border-radius: 5px;
+    box-shadow:  0 0 20px rgba(0,139,253,0.20);
+}
+
+.buttons {
+    width: 92%;
+    margin:  60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    width: 120px;
+    height: 50px;
+    background-color:  #507291;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border:none;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+.buttons button:hover {
+    background-color: #205e94;
+}
+
+.buttons button:nth-last-child(2){
+    background-color: #a95353;
+}
+
+.buttons button:nth-last-child(2):hover {
+    background-color: #d23332;
+}
+
+.buttons button:nth-last-child(1){
+    background-color: #20b380;
+}
